@@ -3,20 +3,25 @@
   padding: 0;
 }
 
+.punto-1 {
+  width: 800px;
+  overflow: auto;
+  border: 1px solid gray;
+}
 .punto-1 div{
-width: 213px;
-height: 213px;
-float: left;
+  width: 200px;
+  height: 150px;
+  float: left;
 }
 
 .punto-1 div:first-child{
-background: yellow;
+  background: yellow;
 }
 
 .punto-1 div:nth-child(2){
-background: blue;
+  background: blue;
 }
 
 .punto-1 div:nth-child(3){
-background: red;
+  background: red;
 }
