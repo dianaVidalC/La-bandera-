@@ -1,0 +1,28 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+.punto-2 {
+overflow: auto;
+border: 1px solid gray;
+width: 800px;
+}
+
+.punto-2 div{
+width: 200px;
+height: 150px;
+float: right;
+}
+
+.punto-2 div:first-child{
+background: yellow;
+}
+
+.punto-2 div:nth-child(2){
+background: blue;
+}
+
+.punto-2 div:nth-child(3){
+background: red;
+}
