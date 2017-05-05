@@ -4,25 +4,25 @@
 }
 
 .punto-2 {
-overflow: auto;
-border: 1px solid gray;
-width: 800px;
+  overflow: auto;
+  border: 1px solid gray;
+  width: 800px;
 }
 
 .punto-2 div{
-width: 200px;
-height: 150px;
-float: right;
+  width: 200px;
+  height: 150px;
+  float: right;
 }
 
 .punto-2 div:first-child{
-background: yellow;
+ background: yellow;
 }
 
 .punto-2 div:nth-child(2){
-background: blue;
+ background: blue;
 }
 
 .punto-2 div:nth-child(3){
-background: red;
+ background: red;
 }
