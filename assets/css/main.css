@@ -1,0 +1,22 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+.punto-1 div{
+width: 213px;
+height: 213px;
+float: left;
+}
+
+.punto-1 div:first-child{
+background: yellow;
+}
+
+.punto-1 div:nth-child(2){
+background: blue;
+}
+
+.punto-1 div:nth-child(3){
+background: red;
+}
