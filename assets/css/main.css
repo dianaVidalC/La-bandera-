@@ -3,19 +3,24 @@
   padding: 0;
 }
 
+.estructura-inicial{
+  width: 800px;
+  overflow: auto;
+  border: 1px solid gray;
+}
 .estructura-inicial div{
-width: 213px;
-height: 213px;
+  width: 200px;
+  height: 150px;
 }
 
-.estructura-inicial div:first-child{
-background: yellow;
+.estructura-inicial div:first-child {
+  background: yellow;
 }
 
 .estructura-inicial div:nth-child(2){
-background: blue;
+  background: blue;
 }
 
 .estructura-inicial div:nth-child(3){
-background: red;
+  background: red;
 }
